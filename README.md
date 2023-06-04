@@ -10,6 +10,8 @@ Using this tool, you can compare the environment variables set in the Netlify ap
 
 ## Usage
 
+`npm install netlify-env-dry-runner`
+`netlify login`
 `netlify-env-dry-runner <site-name> <config-path>`
 
 For example:

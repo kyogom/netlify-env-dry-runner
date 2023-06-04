@@ -28,8 +28,5 @@
     "url": "https://github.com/kyogom/netlify-env-dry-runner/issues"
   },
   "homepage": "https://github.com/kyogom/netlify-env-dry-runner#readme",
-  "dependencies": {
-    "netlify": "^13.1.7",
-    "netlify-cli": "^15.3.1"
-  }
+  "dependencies": {}
 }
