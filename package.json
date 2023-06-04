@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Using this tool, you can compare the environment variables set in the Netlify application with those written in the .env format file in the repository, and display the differences in the standard output",
   "main": "lib/index.js",
+  "bin": {
+    "netlify-env-dry-runner": "./bin/run"
+  },
   "directories": {
     "lib": "lib"
   },
