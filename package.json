@@ -1,0 +1,32 @@
+{
+  "name": "netlify-env-dry-runner",
+  "version": "1.0.0",
+  "description": "Using this tool, you can compare the environment variables set in the Netlify application with those written in the .env format file in the repository, and display the differences in the standard output",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyogom/netlify-env-dry-runner.git"
+  },
+  "keywords": [
+    "netlify",
+    "env",
+    "dry-run",
+    "plan"
+  ],
+  "author": "kyogom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyogom/netlify-env-dry-runner/issues"
+  },
+  "homepage": "https://github.com/kyogom/netlify-env-dry-runner#readme",
+  "dependencies": {
+    "netlify": "^13.1.7",
+    "netlify-cli": "^15.3.1"
+  }
+}
