@@ -6,12 +6,15 @@
 
 ## Description
 
-Using this tool, you can compare the environment variables set in the Netlify application with those written in the .env format file in the repository, and display the differences in the standard output. In other words, if there are environment variables that are only set in one of them, it will show the difference in the standard output.
+Using this cli tool, you can compare the environment variables set in the Netlify application with those written in the .env format file in the repository, and display the differences in the standard output. In other words, if there are environment variables that are only set in one of them, it will show the difference in the standard output.
+
+## Setup
+
+`npm install netlify-env-dry-runner`  
+`netlify login`
 
 ## Usage
 
-`npm install netlify-env-dry-runner`
-`netlify login`
 `netlify-env-dry-runner <site-name> <config-path>`
 
 For example:
@@ -28,6 +31,6 @@ netlify-env-dry-runner todo-service-production /Users/kyogom/dev/private/todo-se
 
 ```
 
-`+` : adding environment variable
-`-` : removing environment variable
+`+` : adding environment variable  
+`-` : removing environment variable  
 `!` : changing environment variable
