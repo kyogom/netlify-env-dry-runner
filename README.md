@@ -15,13 +15,13 @@ Using this cli tool, you can compare the environment variables set in the Netlif
 
 ## Usage
 
-`netlify-env-dry-runner <site-name> <config-path>`
+`npm run netlify-env-dry-runner <site-name> <config-path>`
 
 For example:
 
 ```
 netlify login
-netlify-env-dry-runner todo-service-production /Users/kyogom/dev/private/todo-service/prod.env
+npm run netlify-env-dry-runner todo-service-production /Users/kyogom/dev/private/todo-service/prod.env
 
 + VITE_OGP_IMG=https://manage-expense-assets.s3.ap-northeast-1.amazonaws.com/ogp.png
 
